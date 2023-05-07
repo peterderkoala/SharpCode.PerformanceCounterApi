@@ -13,5 +13,10 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
     <PackageReference Include="System.Device.Gpio" Version="2.2.0" />
+    <PackageReference Include="Unosquare.Raspberry.IO" Version="0.27.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharpCode.PerformanceCounterApi.Core\SharpCode.PerformanceCounterApi.Core.csproj" />
   </ItemGroup>
 </Project>

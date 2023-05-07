@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SharpCode.PerformanceCounterApi.Persistence\SharpCode.PerformanceCounterApi.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
