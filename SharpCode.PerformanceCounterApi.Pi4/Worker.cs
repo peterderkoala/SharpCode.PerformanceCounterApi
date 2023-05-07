@@ -1,4 +1,4 @@
-namespace SharpCode.PerformanceCounterApi.Pi4
+﻿namespace SharpCode.PerformanceCounterApi.Pi4
 {
     public class Worker : BackgroundService
     {

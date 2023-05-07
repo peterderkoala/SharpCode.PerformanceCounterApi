@@ -1,4 +1,4 @@
-using SharpCode.PerformanceCounterApi.Pi4;
+﻿using SharpCode.PerformanceCounterApi.Pi4;
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
