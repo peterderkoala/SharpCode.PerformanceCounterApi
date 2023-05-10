@@ -14,5 +14,12 @@ namespace SharpCode.PerformanceCounterApi.Persistence.Model
         public int DeviceId { get; set; }
         public DeviceModel Device { get; set; } = null!;
         public virtual List<ValueModel> MeasuredValues { get; set; } = new();
+
+
+        public enum SensorType 
+        {
+            CPU,
+            GPU
+        }
     }
 }
